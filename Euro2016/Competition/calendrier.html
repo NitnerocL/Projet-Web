@@ -13,29 +13,41 @@
     <body>
     	
         <header>
-            <div class="banniere">
+            <div id="banniere">
                 <a href="../index.html"><img src="../Images/logo_UEFA.png" width="150px" height="211px" alt="logo de l'UEFA 2016"/></a><h1>Euro 2016 de football</h1>
             </div>
 
-            <nav class="Menu_principal">
+            <nav id="Menu-principal" class="menu">
                 <ul>
-                    <li> <a href="../Competition/competition.html">Compétition </a>
+                    <li> <a href="../Competition/index.html">Compétition </a>
                         <ul>
                             <li> <a href="../Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                             <li> <a href ="../Competition/groupes.html">Composition des groupes </a></li>
                             <li> <a href="../Competition/organigramme.html">Organigramme </a></li>
                         </ul></li>
-                    <li> <a href="../Stades/stades.html">Stades </a></li>
-                    <li> <a href="../Pays/pays.html">Pays </a></li>
+                    <li> <a href="../Stades/index.html">Stades </a></li>
+                    <li> <a href="../Pays/index.html">Pays </a></li>
+                    <li> <a href="Galerie/index.html">Galerie</a>
+                        <ul>
+                            <li><a href="Galerie/index.html">Photos</a></li>
+                            <li><a href="Galerie/videos/index.html">Vidéos</a></li>
+                        </ul></li>
                     <li> <a href="../contact.html">Contact </a></li>
                 </ul>
             </nav>
+
+            <div id="fil-ariane">
+                <a href="../index.html">Accueil</a> >
+                <a href="index.html">Compétition</a> >
+                <span class="current-page">Calendrier des matchs</span>
+            </div>
+
         </header>
 
         <!-- Corps de la page -->
-        <section id="calendrier">
+        <section id="main-section" class="colonne colonne-gauche">
             <h1>Calendrier et résultats des matchs</h1>
-            <table>
+            <table class="calendrier">
                 <caption>Calendrier des matchs</caption>
                 <thead>
                     <tr>
@@ -47,25 +59,60 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1/10/15 12:00</td>
-                        <td>Zizou</td>
-                        <td>Zimbabwe</td>
-                        <td>Canada</td>
+                        <td>11/06/16 15:00</td>
+                        <td><a href="../Stades/parc-des-princes.html">Parc des Princes</a></td>
+                        <td>France</td>
+                        <td>Allemagne</td>
                         <td>3 - 0</td>
                     </tr>
                     <tr>
-                        <td>1/10/15 13:00</td>
-                        <td>Bibi</td>
-                        <td>Japon</td>
-                        <td>Brésil</td>
+                        <td>11/06/16 18:00</td>
+                        <td><a href="../Stades/dtade-velodrome.html">Vélodrome (Marseille)</a></td>
+                        <td>Autriche</td>
+                        <td>Slovaquie</td>
+                        <td>2 - 1</td>
+                    </tr>
+                    <tr>
+                        <td>12/06/16 17:00</td>
+                        <td><a href="../Stades/stade-des-lumieres.html">Lumières (Lyon)</a></td>
+                        <td>Suisse</td>
+                        <td>Angleterre</td>
+                        <td>1 - 2</td>
+                    </tr>
+                    <tr>
+                        <td>12/06/16 21:00</td>
+                        <td><a href="../Stades/stade-de-france.html">Stade de France</a></td>
+                        <td>Irlande</td>
+                        <td>Belgique</td>
+                        <td>3 - 1</td>
+                    </tr>
+                    <tr>
+                        <td>13/06/16 15:00</td>
+                        <td><a href="../Stades/stadium-municipal.html">Stadium municipal (Toulouse)</a></td>
+                        <td>Italie</td>
+                        <td>Albanie</td>
+                        <td>3 - 1</td>
+                    </tr>
+                    <tr>
+                        <td>13/06/16 18:00</td>
+                        <td><a href="../Stades/stade-des-lumieres.html">Lumières (Lyon)</a></td>
+                        <td>Russie</td>
+                        <td>Croatie</td>
+                        <td>1 - 4</td>
+                    </tr>
+                    <tr>
+                        <td>13/06/16 21:00</td>
+                        <td><a href="../Stades/stadium-municipal.html">Stadium municipal (Toulouse)</a></td>
+                        <td>Turquie</td>
+                        <td>Ukraine</td>
                         <td>2 - 1</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <section class="colonne-gauche">
-        <nav class="menu-contextuel" id="menu-competition"> 
+        <section class="colonne-gauche colonne">
+        <nav class="menu-contextuel menu"> 
             <ul>
                 <li> <a href="../Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                 <li> <a href ="../Competition/groupes.html">Composition des groupes </a></li>
@@ -82,8 +129,8 @@
         <!--Pied de page -->
         <footer>
             <p>© M.C. et C.L. 2015. <br/>Tous droits réservés. </p>
-            <p><a href="mentions-legales.html">Mentions légales</a></p>
-            <p><a href="plan.html">Plan du site</a></p>
+            <p><a href="../mentions-legales.html">Mentions légales</a></p>
+            <p><a href="../plan-du-site.html">Plan du site</a></p>
         </footer>
 
     </body>

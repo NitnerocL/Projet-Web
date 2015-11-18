@@ -14,130 +14,144 @@
     	
         <!-- En-tête de la page -->
         <header>
-            <div class="banniere">
+            <div id="banniere">
                 <a href="../index.html"><img src="../Images/logo_UEFA.png" width="150px" height="211px" alt="logo de l'UEFA 2016"/></a><h1>Euro 2016 de football</h1>
             </div>
 
-            <nav class="Menu_principal">
+            <nav id="Menu-principal" class="menu">
                 <ul>
-                    <li> <a href="../Competition/competition.html">Compétition </a>
+                    <li> <a href="../Competition/index.html">Compétition </a>
                         <ul>
                             <li> <a href="../Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                             <li> <a href ="../Competition/groupes.html">Composition des groupes </a></li>
                             <li> <a href="../Competition/organigramme.html">Organigramme </a></li>
                         </ul></li>
-                    <li> <a href="../Stades/stades.html">Stades </a></li>
-                    <li> <a href="../Pays/pays.html">Pays </a></li>
+                    <li> <a href="../Stades/index.html">Stades </a></li>
+                    <li> <a href="../Pays/index.html">Pays </a></li>
+                    <li> <a href="Galerie/index.html">Galerie</a>
+                        <ul>
+                            <li><a href="Galerie/index.html">Photos</a></li>
+                            <li><a href="Galerie/videos/index.html">Vidéos</a></li>
+                        </ul></li>
                     <li> <a href="../contact.html">Contact </a></li>
                 </ul>
             </nav>
+
+            <div id="fil-ariane">
+                <a href="../index.html">Accueil</a> >
+                <a href="index.html">Compétition</a> >
+                <span class="current-page">Composition des groupes</span>
+            </div>
+
         </header>
 
         <!-- Corps de la page -->
-        <section id="groupes">
+        <section id="main-section" class="colonne colonne-centrale">
             <hi>Composition des groupes</h1>
             <p>
                 Les 24 pays qualifiés sont répartis en 6 groupes. Les deux premiers de chaque groupe et les quatre meilleurs troisièmes se qualifieront pour la phase à élimination directe.
             </p>
-            <table id="groupe_A">
-                <caption>Groupe A</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+            <div id="groupes">
+                <table class="groupe">
+                    <caption>Groupe A</caption>
+                    <tr>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <td>Italie</td>
+                    </tr>
+                    <tr>
+                        <td>Pologne</td>
+                    </tr>
+                    <tr>
+                        <td>Allemagne</td>
+                    </tr>
+                </table>
 
-            <table id="groupe_B">
-                <caption>Groupe B</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+                <table class="groupe">
+                    <caption>Groupe B</caption>
+                    <tr>
+                        <td>Roumanie</td>
+                    </tr>
+                    <tr>
+                        <td>Angleterre</td>
+                    </tr>
+                    <tr>
+                        <td>Ukraine</td>
+                    </tr>
+                    <tr>
+                        <td>Espagne</td>
+                    </tr>
+                </table>
 
-            <table id="groupe_C">
-                <caption>Groupe C</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+                <table class="groupe">
+                    <caption>Groupe C</caption>
+                    <tr>
+                        <td>Irlande</td>
+                    </tr>
+                    <tr>
+                        <td>Russie</td>
+                    </tr>
+                    <tr>
+                        <td>Croatie</td>
+                    </tr>
+                    <tr>
+                        <td>Turquie</td>
+                    </tr>
+                </table>
 
-            <table id="groupe_D">
-                <caption>Groupe D</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+                <table class="groupe">
+                    <caption>Groupe D</caption>
+                    <tr>
+                        <td>Hongrie</td>
+                    </tr>
+                    <tr>
+                        <td>Pays de Galle</td>
+                    </tr>
+                    <tr>
+                        <td>Suisse</td>
+                    </tr>
+                    <tr>
+                        <td>Portugal</td>
+                    </tr>
+                </table>
 
-            <table id="groupe_E">
-                <caption>Groupe E</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+                <table class="groupe">
+                    <caption>Groupe E</caption>
+                    <tr>
+                        <td>Irlande du Nord</td>
+                    </tr>
+                    <tr>
+                        <td>Islande</td>
+                    </tr>
+                    <tr>
+                        <td>République Tchèque</td>
+                    </tr>
+                    <tr>
+                        <td>Autriche</td>
+                    </tr>
+                </table>
 
-            <table id="groupe_F">
-                <caption>Groupe F</caption>
-                <tr>
-                    <td>France</td>
-                </tr>
-                <tr>
-                    <td>Italie</td>
-                </tr>
-                <tr>
-                    <td>Pologne</td>
-                </tr>
-                <tr>
-                    <td>Allemagne</td>
-                </tr>
-            </table>
+                <table class="groupe">
+                    <caption>Groupe F</caption>
+                    <tr>
+                        <td>Albanie</td>
+                    </tr>
+                    <tr>
+                        <td>Slovaquie</td>
+                    </tr>
+                    <tr>
+                        <td>Norvège</td>
+                    </tr>
+                    <tr>
+                        <td>Slovénie</td>
+                    </tr>
+                </table>
+            </div>
         </section>
 
-        <section class="colonne-gauche">
-        <nav class="menu-contextuel" id="menu-competition"> 
+        <section class="colonne-gauche colonne">
+        <nav class="menu-contextuel menu"> 
             <ul>
                 <li> <a href="../Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                 <li> <a href ="../Competition/groupes.html">Composition des groupes </a></li>
@@ -154,8 +168,8 @@
         <!--Pied de page -->
         <footer>
             <p>© M.C. et C.L. 2015. <br/>Tous droits réservés. </p>
-            <p><a href="mentions-legales.html">Mentions légales</a></p>
-            <p><a href="plan.html">Plan du site</a></p>
+            <p><a href="../mentions-legales.html">Mentions légales</a></p>
+            <p><a href="../plan-du-site.html">Plan du site</a></p>
         </footer>
 
     </body>

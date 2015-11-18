@@ -15,35 +15,46 @@
         
         <!-- En-tête de la page -->
         <header>
-            <div class="banniere">
+            <div id="banniere">
                 <a href="index.html"><img src="Images/logo_UEFA.png" width="150px" height="211px" alt="logo de l'UEFA 2016"/></a><h1>Euro 2016 de football</h1>
             </div>
 
-            <nav class="Menu_principal">
+            <nav id="Menu-principal" class="menu">
 				<ul>
-					<li> <a href="Competition/competition.html">Compétition </a>
+					<li> <a href="Competition/index.html">Compétition </a>
 						<ul>
 							<li> <a href="Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
 							<li> <a href ="Competition/groupes.html">Composition des groupes </a></li>
 							<li> <a href="Competition/organigramme.html">Organigramme </a></li>
 						</ul></li>
-					<li> <a href="Stades/stades.html">Stades </a></li>
-					<li> <a href="Pays/pays.html">Pays </a></li>
+					<li> <a href="Stades/index.html">Stades </a></li>
+					<li> <a href="Pays/index.html">Pays </a></li>
+                    <li> <a href="Galerie/index.html">Galerie</a>
+                        <ul>
+                            <li><a href="Galerie/index.html">Photos</a></li>
+                            <li><a href="Galerie/videos/index.html">Vidéos</a></li>
+                        </ul></li>
 					<li> <a href="contact.html">Contact </a></li>
 				</ul>
 			</nav>
+
+            <div id="fil-ariane">
+                <a href="index.html">Accueil</a> >
+                <span class="current-page">Mentions légales</span>
+            </div>
+
         </header>
 
         <!-- Corps de la page -->
-        <section id="Mentions-legales">
+        <section id="main-section" class="colonne colonne-centrale">
             <h1>Mentions légales</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id nunc non metus tempus placerat. Donec sit amet nibh id metus sodales hendrerit vitae id erat. Nam bibendum mi quis metus viverra imperdiet. Praesent vitae malesuada ante. Nullam efficitur, augue eu ultrices semper, nisl tortor porta dui, eu ultrices est turpis ut arcu. Donec auctor lorem ut orci aliquet, et suscipit libero finibus. Duis augue sapien, mollis in mi non, pretium gravida est. Donec laoreet nulla ligula, eget varius eros commodo et. Morbi eu turpis sed nunc malesuada venenatis. In tincidunt laoreet neque, a posuere urna molestie id. Vivamus facilisis in lorem eget porttitor. 
             </p>
         </section>
         
-        <section class="colonne-gauche">
-        <nav class="menu-contextuel" id="menu-competition"> 
+        <section class="colonne-gauche colonne">
+        <nav class="menu-contextuel menu"> 
             <ul>
                 <li> <a href="" title=""> lien </a></li>
             </ul>
@@ -59,7 +70,7 @@
         <footer>
             <p>© M.C. et C.L. 2015. <br/>Tous droits réservés. </p>
             <p><a href="mentions-legales.html">Mentions légales</a></p>
-			<p><a href="plan.html">Plan du site</a></p>
+			<p><a href="plan-du-site.html">Plan du site</a></p>
         </footer>
 
     </body>

@@ -14,34 +14,154 @@
     	
         <!-- En-tête de la page -->
         <header>
-            <div class="banniere">
+            <div id="banniere">
                 <a href="index.html"><img src="Images/logo_UEFA.png" width="150px" height="211px" alt="logo de l'UEFA 2016"/></a><h1>Euro 2016 de football</h1>
             </div>
 
-            <nav class="Menu_principal">
+            <nav id="Menu-principal" class="menu">
                 <ul>
-                    <li> <a href="../Competition/competition.html">Compétition </a>
+                    <li> <a href="Competition/index.html">Compétition </a>
                         <ul>
                             <li> <a href="Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                             <li> <a href ="Competition/groupes.html">Composition des groupes </a></li>
                             <li> <a href="Competition/organigramme.html">Organigramme </a></li>
                         </ul></li>
-                    <li> <a href="Stades/stades.html">Stades </a></li>
-                    <li> <a href="Pays/pays.html">Pays </a></li>
+                    <li> <a href="Stades/index.html">Stades </a></li>
+                    <li> <a href="Pays/index.html">Pays </a></li>
+                    <li> <a href="Galerie/index.html">Galerie</a>
+                        <ul>
+                            <li><a href="Galerie/index.html">Photos</a></li>
+                            <li><a href="Galerie/videos/index.html">Vidéos</a></li>
+                        </ul></li>
                     <li> <a href="contact.html">Contact </a></li>
                 </ul>
             </nav>
+
+            <div id="fil-ariane">
+                <a href="index.html">Accueil</a> >
+                <span class="current-page">Contact</span>
+            </div>
+
         </header>
 
         <!-- Corps de la page -->
-        <section id="Presentation_du_site">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id nunc non metus tempus placerat. Donec sit amet nibh id metus sodales hendrerit vitae id erat. Nam bibendum mi quis metus viverra imperdiet. Praesent vitae malesuada ante. Nullam efficitur, augue eu ultrices semper, nisl tortor porta dui, eu ultrices est turpis ut arcu. Donec auctor lorem ut orci aliquet, et suscipit libero finibus. Duis augue sapien, mollis in mi non, pretium gravida est. Donec laoreet nulla ligula, eget varius eros commodo et. Morbi eu turpis sed nunc malesuada venenatis. In tincidunt laoreet neque, a posuere urna molestie id. Vivamus facilisis in lorem eget porttitor. 
-            </p>
+        <section class="colonne colonne-centrale" id="main-section">
+            <h1>Contact</h1>
+            <form action="contact.html" method ="post">
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom"/>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom"/>
+
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Vos choix</legend>
+                    <p>Pariez sur le classement final :</p>
+
+                    <label for="premier">Premier :</label>
+                    <select id="premier" name="premier">
+                        <option valeur="albanie">Albanie</option>
+                        <option valeur="allemagne">Allemagne</option>
+                        <option valeur="angleterre">Angleterre</option>
+                        <option valeur="autriche">Autriche</option>
+                        <option valeur="croatie">Croatie</option>
+                        <option valeur="espagne">Espagne</option>
+                        <option valeur="france">France</option>
+                        <option valeur="hongrie">Hongrie</option>
+                        <option valeur="irlande">Irlande</option>
+                        <option valeur="irlande-du-nord">Irlande du Nord</option>
+                        <option valeur="islande">Islande</option>
+                        <option valeur="italie">Italie</option>
+                        <option valeur="norvège">Norvège</option>
+                        <option valeur="pays-de-galle">Pays de Galle</option>
+                        <option valeur="pologne">Pologne</option>
+                        <option valeur="portugal">Portugal</option>
+                        <option valeur="république-tcheque">République Tchèque</option>
+                        <option valeur="roumanie">Roumanie</option>
+                        <option valeur="russie">Russie</option>
+                        <option valeur="slovaquie">Slovaquie</option>
+                        <option valeur="slovénie">Slovénie</option>
+                        <option valeur="suisse">Suisse</option>
+                        <option valeur="turkie">Turkie</option>
+                        <option valeur="ukraine">Ukraine</option>
+                    </select>
+
+                    <label for="deuxieme">Deuxième :</label>
+                    <select id="deuxieme" name="deuxieme">
+                        <option valeur="albanie">Albanie</option>
+                        <option valeur="allemagne">Allemagne</option>
+                        <option valeur="angleterre">Angleterre</option>
+                        <option valeur="autriche">Autriche</option>
+                        <option valeur="croatie">Croatie</option>
+                        <option valeur="espagne">Espagne</option>
+                        <option valeur="france">France</option>
+                        <option valeur="hongrie">Hongrie</option>
+                        <option valeur="irlande">Irlande</option>
+                        <option valeur="irlande-du-nord">Irlande du Nord</option>
+                        <option valeur="islande">Islande</option>
+                        <option valeur="italie">Italie</option>
+                        <option valeur="norvège">Norvège</option>
+                        <option valeur="pays-de-galle">Pays de Galle</option>
+                        <option valeur="pologne">Pologne</option>
+                        <option valeur="portugal">Portugal</option>
+                        <option valeur="république-tcheque">République Tchèque</option>
+                        <option valeur="roumanie">Roumanie</option>
+                        <option valeur="russie">Russie</option>
+                        <option valeur="slovaquie">Slovaquie</option>
+                        <option valeur="slovénie">Slovénie</option>
+                        <option valeur="suisse">Suisse</option>
+                        <option valeur="turkie">Turkie</option>
+                        <option valeur="ukraine">Ukraine</option>
+                    </select>
+
+                    <label for="troisieme">Troisième :</label>
+                    <select id="toisieme" name="troisieme">
+                        <option valeur="albanie">Albanie</option>
+                        <option valeur="allemagne">Allemagne</option>
+                        <option valeur="angleterre">Angleterre</option>
+                        <option valeur="autriche">Autriche</option>
+                        <option valeur="croatie">Croatie</option>
+                        <option valeur="espagne">Espagne</option>
+                        <option valeur="france">France</option>
+                        <option valeur="hongrie">Hongrie</option>
+                        <option valeur="irlande">Irlande</option>
+                        <option valeur="irlande-du-nord">Irlande du Nord</option>
+                        <option valeur="islande">Islande</option>
+                        <option valeur="italie">Italie</option>
+                        <option valeur="norvège">Norvège</option>
+                        <option valeur="pays-de-galle">Pays de Galle</option>
+                        <option valeur="pologne">Pologne</option>
+                        <option valeur="portugal">Portugal</option>
+                        <option valeur="république-tcheque">République Tchèque</option>
+                        <option valeur="roumanie">Roumanie</option>
+                        <option valeur="russie">Russie</option>
+                        <option valeur="slovaquie">Slovaquie</option>
+                        <option valeur="slovénie">Slovénie</option>
+                        <option valeur="suisse">Suisse</option>
+                        <option valeur="turkie">Turkie</option>
+                        <option valeur="ukraine">Ukraine</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <label for"message">Votre message :</label>
+                    <textarea id="message" name="message"></textarea>
+                </fieldset>
+
+                <div class="bouton">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
         </section>
        
-       <section class="colonne-gauche">
-        <nav class="menu-contextuel" id="menu-competition"> 
+       <section class="colonne colonne-gauche">
+        <nav class="menu-contextuel menu"> 
             <ul>
                 <li> <a href="Competition/calendrier.html" title="Calendrier des matches"> Calendrier des matches </a></li>
                 <li> <a href ="Competition/groupes.html">Composition des groupes </a></li>
@@ -59,7 +179,7 @@
         <footer>
             <p>© M.C. et C.L. 2015. <br/>Tous droits réservés. </p>
             <p><a href="mentions-legales.html">Mentions légales</a></p>
-            <p><a href="plan.html">Plan du site</a></p>
+            <p><a href="plan-du-site.html">Plan du site</a></p>
         </footer>
 
     </body>
