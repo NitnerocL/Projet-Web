@@ -1,0 +1,43 @@
+body{
+	background-color :#9E9E9E;
+}
+nav ul{
+	list-style: none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+#Menu-principal li{
+	float : left;
+	padding:10px;
+	background-color: #E040FB;
+	margin:auto;
+}
+#Menu-principal >ul >li {
+	border:2px solid;
+	border-radius: 5px;
+}
+
+#Menu-principal a {
+	display:block;
+	width:200px;
+	text-decoration:none;
+	padding:5px;
+}
+#Menu-principal li a:hover{
+	color:red;
+}
+
+#Menu-principal ul li ul{
+	display:none;
+}
+
+#Menu-principal ul li:hover ul{
+	display:block;
+}
+
+#Menu-principal li:hover ul li{
+	float:none;
+
+}
