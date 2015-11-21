@@ -1,36 +1,97 @@
+
+*{
+	box-sizing:border-box;
+}
+
 body{
 	background-color :#9E9E9E;
+	margin:0;
+	padding:0;
+	width: 100%;
 }
+nav{
+	width:100%;
+	margin:0;
+	padding-right:10px;
+	top:0;
+	text-align:center;
+}
+
 nav ul{
 	list-style: none;
 	text-align:center;
 	margin:0;
 	padding:0;
+	line-height: 40px;
+}
+
+
+header{
+	margin: 0;
+	height : 190px;
+	border-bottom: 1px dotted ;
+	margin-bottom: 20px;
+	background-color:#858585;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+header div.gauche{
+	float:left;
+	margin-left:10px;
+}
+
+header div.droite{
+	margin:0;
+	margin-left: 150px;
+}
+
+header div.droite h1{
+	margin:0;
+	line-height:110px;
+	margin-left:20px;
+
+}
+#Menu-principal{
+	margin-top: 0px;
+	min-width: 840px;
+	position:relative;
 }
 
 #Menu-principal li{
 	float : left;
-	padding:10px;
+	padding:0px;
 	background-color: #E040FB;
-	margin:auto;
+	margin:0;
 }
+
 #Menu-principal >ul >li {
 	border:2px solid;
 	border-radius: 5px;
+	width:20%;
+	margin:0;
 }
 
 #Menu-principal a {
 	display:block;
-	width:200px;
+	width:100%;
 	text-decoration:none;
-	padding:5px;
+	padding:0px;
 }
+
 #Menu-principal li a:hover{
 	color:red;
 }
 
 #Menu-principal ul li ul{
 	display:none;
+	margin:0;
+	position:absolute;
+	border:2px solid;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius: 5px;
+	width:20%;
+	min-width: 167px;
 }
 
 #Menu-principal ul li:hover ul{
