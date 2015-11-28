@@ -1,0 +1,28 @@
+#Thumbs{
+	list-style:none outside none ;
+	margin: 0 auto;
+	padding:0;
+}
+#Thumbs li {
+	float : left;
+	margin :0;
+	padding :5px;
+	position:relative;
+	z-index:10;
+	width:410px;
+	height:300px;
+}
+#Thumbs li:hover{
+	z-index:100; /* Pour Firefox*/
+}
+#Thumbs li img{
+	border : 5px solide #fff;
+	z-index:100;
+	transition: transform 0.25s ease-in-out;
+	-moz-transition:-moz-transform 0.25 ease-in-out;
+	-o-transition:-o-transform 0.25 ease-in-out;
+	transform:scale(0.75);
+	-moz-transform:scale(0.75);
+	-o-transform:scale(0.75);
+	-webkit-transform:scale(0.75);
+}
