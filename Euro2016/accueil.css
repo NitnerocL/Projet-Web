@@ -1,40 +1,34 @@
-
+/*
 *{
 	box-sizing:border-box;
-}
+}*/
 
-body{
+/*body{
 	background-color :#9E9E9E;
 	margin:0;
-	padding:0;
 	width: 100%;
-}
+	background-image: url(Images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
 nav{
 	width:100%;
 	margin:0;
 	padding-right:10px;
 	top:0;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 nav ul{
-	list-style: none;
-	text-align:center;
+	/*list-style: none;*/
+	/*text-align:center;*/
 	margin:0;
 	padding:0;
 	line-height: 40px;
 }
 
 
-header{
-	margin: 0;
-	height : 190px;
-	border-bottom: 1px dotted ;
-	margin-bottom: 20px;
-	background-color:#858585;
-	padding-top:10px;
-	padding-bottom:10px;
-}
 
 header div.gauche{
 	float:left;
@@ -44,30 +38,33 @@ header div.gauche{
 header div.droite{
 	margin:0;
 	margin-left: 150px;
+	margin-right: 20px;
 }
 
 header div.droite h1{
 	margin:0;
 	line-height:110px;
 	margin-left:20px;
+	min-width: 400px;
 
 }
 #Menu-principal{
 	margin-top: 0px;
 	min-width: 840px;
+	max-width:1100px;
 	position:relative;
 }
 
 #Menu-principal li{
 	float : left;
 	padding:0px;
-	background-color: #E040FB;
+	background-color:#E040FB;
 	margin:0;
 }
 
 #Menu-principal >ul >li {
-	border:2px solid;
-	border-radius: 5px;
+	/*border:2px solid;
+	/*border-radius: 5px;*/
 	width:20%;
 	margin:0;
 }
@@ -87,11 +84,12 @@ header div.droite h1{
 	display:none;
 	margin:0;
 	position:absolute;
-	border:2px solid;
+	/*border:2px solid;
 	border-bottom-right-radius:5px;
-	border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;*/
 	width:20%;
 	min-width: 167px;
+	max-width:220px;
 }
 
 #Menu-principal ul li:hover ul{
@@ -102,3 +100,31 @@ header div.droite h1{
 	float:none;
 
 }
+
+
+
+article.actualites{
+	display: block;
+	text-align: center;
+}
+
+article.carre{
+	padding: 0;
+	position:relative;
+}
+article.carre a{
+	float:left;
+}
+
+article.actualites p{
+	background-color: rgba(169, 169, 169, 0.5);
+	color:white;
+	position: absolute;
+	float:left;
+}
+
+
+/*article img{
+	margin:auto;
+	width:500px;
+}*/
