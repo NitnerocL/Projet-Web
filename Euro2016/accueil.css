@@ -3,16 +3,47 @@
 }
 
 .quart{
-	width:25%;
+	width:47%;
 	margin:0;
-	padding: 0;
-
+	padding: 1%;
+	display: inline-block;
+	height:450px;			/*Il faudrait réussir à ajuster cette hauteur en %*/
+	border:1px solid black;
+	vertical-align: top;
 }
 
-.quart.gauche{
-	float:left;
+
+.quart .carre{
+	width : 100%;
+	height :100%;
+	position :relative;
 }
 
-.quart.droit{
-	clear:both;
+
+.quart .actualites img{
+	width:100%;
+	height:100%;
 }
+
+.carre a{
+	display:block;
+	position:absolute;
+	text-decoration: none;
+	z-index: 1;
+}
+
+.carre p{
+	background-color : rgba(255,255,255,0.7);
+	position:absolute;
+	bottom:1.1%;
+	margin:0;
+	color : black;
+	z-index: 2;
+}
+
+.quart.haut.droit img{ /*Yen a un qui va en bas quand on rétrécit la fenêtre*/
+	border-radius: 10px;
+	border : 1px solid white;
+	margin-right : 5%;
+}
+
