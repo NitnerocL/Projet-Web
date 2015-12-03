@@ -1,0 +1,10 @@
+#corps.colonne-centrale{
+	width:70%;
+	left-margin:25%;
+
+}
+#corps.colonne-gauche {
+	width:25%;
+	border: 2px solid white;
+	float:left;
+}

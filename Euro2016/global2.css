@@ -17,7 +17,7 @@ strong,em{
 	font-style: normal;
 	font-weight: normal;
 }
-a{
+p a{
 	color:yellow;
 }
 h1{
@@ -26,9 +26,7 @@ h1{
 	margin:0;
 	margin-bottom:0.7em;
 }
-nav a{
-	text-decoration: none;
-}
+
 nav ul{
 	list-style:none;
 	padding:0;
@@ -167,14 +165,7 @@ footer a {
 	max-width:1000px;
 	margin:auto;
 	min-height:400px;
-}
-
-#corps section p:first-letter{
-	margin-left:2em;
-}
-
-#corps section p {
-	text-align: justify;
+	vertical-align: top;
 }
 
 
@@ -189,49 +180,30 @@ footer a {
 	/*max-width: 1000px;*/
 }
 
-#corps .avec-colonne-gauche{
+/*#corps .avec-colonne-gauche{
 	display:inline-block;
 	width:72.5%;
 	vertical-align: top;
 	left:0;
 }
+*/
 
-
-
-section.colonne-gauche {
-	width:24%;
+#page{
+	position:relative;
+}
+ section.colonne-gauche {
+	width:200px;
 	border:2px solid white;
-	display:inline-block;
-	background-color: rgba(230,242,0,0.7);
+	float:left;
+	background-color: yellow;
+	margin-left: 30px;
 }
-
-.menu-contextuel{
-	color:black;
-}
-
-.menu-contextuel a{
-	color:black;
-	border-bottom:1px dashed red;
-}
-
 
 .menu-contextuel ul{
 	padding:2%;
 	font-size: 0.94em;
-	list-style: square inside;
-	margin-bottom: 5px;
-	margin-top: 7px;
-}
-.menu-contextuel li{
-	margin-bottom: 3px;
 }
 
-.menu-contextuel h3{
-	color:black;
-	margin-bottom: 0;
-	margin-top: 5px;
-	text-align: center;
-}
 
 #fil-ariane{
 	padding-left:10px;
