@@ -163,8 +163,9 @@ footer a {
 
 /*======================Corps===================*/
 #corps{
-	min-width:800px;
-	max-width:1000px;
+	/*min-width:800px;
+	max-width:1000px;*/
+	width:1000px;
 	margin:auto;
 	min-height:400px;
 }
@@ -201,8 +202,9 @@ footer a {
 section.colonne-gauche {
 	width:24%;
 	border:2px solid white;
+	border-radius: 5px;
 	display:inline-block;
-	background-color: rgba(230,242,0,0.7);
+	background-color: rgba(221,148,14,0.7);
 }
 
 .menu-contextuel{
@@ -211,6 +213,8 @@ section.colonne-gauche {
 
 .menu-contextuel a{
 	color:black;
+}
+.menu-contextuel a:hover{
 	border-bottom:1px dashed red;
 }
 

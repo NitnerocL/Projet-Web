@@ -5,7 +5,7 @@
 }
 #Thumbs li {
 	float : left;
-	margin :0;
+	margin :auto;
 	padding :5px;
 	position:relative;
 	z-index:10;
@@ -31,4 +31,14 @@
 	z-index:100;
 	transform : scale(1);
 	box-shadow : 1px 1px 10px #000;
+}
+
+#corps {
+	width:1270px;
+	height:1020px;
+	background-color: rgba(20,108,171,0.8);
+	border:2px solid white;
+	border-radius: 5px;
+	padding-left:15px;
+	padding-top:15px;
 }

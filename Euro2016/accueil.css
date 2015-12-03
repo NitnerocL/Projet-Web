@@ -3,12 +3,15 @@
 }
 
 .quart{
-	width:47%;
+	width:450px;
 	margin:0;
+	margin: 12px;
 	padding: 1%;
 	display: inline-block;
 	height:450px;			/*Il faudrait réussir à ajuster cette hauteur en %*/
 	border:1px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px #000; /*décalage à droite, décalage en bas, étendue du dégradé*/
 	vertical-align: top;
 }
 
