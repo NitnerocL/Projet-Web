@@ -42,7 +42,9 @@
 	margin:0;
 	color : black;
 	z-index: 2;
+	padding:10px;
 }
+
 
 .quart.haut.droit img{ /*Yen a un qui va en bas quand on rétrécit la fenêtre*/
 	border-radius: 10px;
