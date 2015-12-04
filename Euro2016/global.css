@@ -244,3 +244,25 @@ section.colonne-gauche {
 #fil-ariane a{
 	color:gray;
 }
+
+.bouton{
+	display:block;
+	background-color: orange;
+	border:1px solid white;
+	border-radius: 4px;
+	box-shadow: 1px 1px 10px black;
+	width:150px;
+	text-align: center;
+	margin-top:5px;
+	text-decoration: none;
+	color:white;
+}
+
+.bouton-gauche{
+	float:left;
+	margin-left:20px;
+}
+.bouton-droite{
+	float:right;
+	margin-right: 20px;
+}
