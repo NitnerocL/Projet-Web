@@ -35,16 +35,14 @@
 
 #corps {
 	width:1270px;
-	height:1020px;
+	height:1220px;
 	background-color: rgba(20,108,171,0.8);
 	border:2px solid white;
 	border-radius: 5px;
 	padding-left:15px;
 	padding-top:15px;
 }
-.bouton-vers-video{
-	float:left;
-	margin-left:20px;
-	
-
+.bouton{
+	float:none;
 }
+
