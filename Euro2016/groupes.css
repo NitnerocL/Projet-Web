@@ -1,0 +1,49 @@
+table.groupe{
+	float:left;
+	text-align: center;
+	width:200px;
+	border:2px solid;
+	border-radius: 4px;
+	margin:10px;
+}
+
+table.groupe caption{
+	font-weight: bold;
+}
+
+.haut, .bas{
+	width:660px;
+	margin:auto;
+}
+/* #grpA{
+ 	border-color:red;
+ 	background-color:rgba(240,36,14,0.5);
+ }
+#grpB{
+	border-color:yellow;
+	background-color:rgba(204,242,0,0.5);
+}
+#grpC{
+	border-color:purple;
+	background-color:rgba(163,33,165,0.5);
+}
+#grpD{
+	border-color:green;
+	background-color:rgba(20,114,30,0.5);
+}
+#grpE{
+	border-color:orange;
+	background-color:rgba(242,110,2,0.5);
+}
+#grpF{
+	border-color:pink;
+	background-color:rgba(180,74,122,0.5);
+}*/
+
+table a{
+	color:white;
+	text-decoration: none;
+}
+table a:hover{
+	font-style: italic;
+}
