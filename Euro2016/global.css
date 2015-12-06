@@ -82,6 +82,7 @@ header div.droite h1{
 	margin:0;
 	padding-right:10px;
 	top:0;
+	z-index:100;
 }
 
 #Menu-principal ul{
