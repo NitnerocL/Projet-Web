@@ -15,7 +15,7 @@ table.groupe caption{
 	width:660px;
 	margin:auto;
 }
-/* #grpA{
+ #grpA{
  	border-color:red;
  	background-color:rgba(240,36,14,0.5);
  }
@@ -38,7 +38,7 @@ table.groupe caption{
 #grpF{
 	border-color:pink;
 	background-color:rgba(180,74,122,0.5);
-}*/
+}
 
 table a{
 	color:white;
