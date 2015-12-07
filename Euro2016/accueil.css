@@ -8,11 +8,15 @@
 	margin: 12px;
 	padding: 1%;
 	display: inline-block;
-	height:450px;			/*Il faudrait réussir à ajuster cette hauteur en %*/
+	height:420px;
 	border:1px solid black;
 	border-radius: 10px;
 	box-shadow: 3px 3px 10px #000; /*décalage à droite, décalage en bas, étendue du dégradé*/
 	vertical-align: top;
+}
+
+.quart h2{
+	margin-bottom: 40px;
 }
 
 
@@ -36,7 +40,7 @@
 }
 
 .carre p{
-	background-color : rgba(255,255,255,0.7);
+	background-color : rgba(255,255,255,0.75);
 	position:absolute;
 	bottom:1.1%;
 	margin:0;
@@ -45,10 +49,23 @@
 	padding:10px;
 }
 
-
-.quart.haut.droit img{ /*Yen a un qui va en bas quand on rétrécit la fenêtre*/
-	border-radius: 10px;
-	border : 1px solid white;
-	margin-right : 5%;
+.carre{
+	opacity:0.92;
+}
+.carre:hover{
+	opacity:1;
 }
 
+.quart.haut.droit img{
+	border-radius: 10px;
+	border : 1px solid white;
+	margin:12px;
+}
+
+.quart.bas.gauche img{
+	/*margin:21px;*/
+	display:block;
+	margin:auto;
+	border:4px solid white;
+	border-radius: 5px;
+}
