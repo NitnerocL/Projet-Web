@@ -3,3 +3,11 @@
 	margin:auto;
 	margin-bottom: 30px;
 }
+
+.stade table{
+	border:1px solid white;
+	border-radius:5px;
+	text-align:left;
+	margin-bottom: 30px;
+	margin-left:20px;
+}

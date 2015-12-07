@@ -3,7 +3,7 @@
 }
 
 .quart{
-	width:450px;
+	width:425px;
 	margin:0;
 	margin: 12px;
 	padding: 1%;
@@ -63,7 +63,6 @@
 }
 
 .quart.bas.gauche img{
-	/*margin:21px;*/
 	display:block;
 	margin:auto;
 	border:4px solid white;

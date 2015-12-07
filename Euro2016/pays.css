@@ -1,0 +1,21 @@
+aside{
+	float:right;
+	margin-left:25px;
+	margin-top:50px;
+	padding:5px;
+	border:2px solid white;
+	border-radius:5px;
+}
+
+aside table{
+	text-align: left;
+	margin: auto;
+}
+
+.equipe{
+	border-collapse: collapse;
+	margin-top:20px;
+}
+.equipe th{
+	border-top:1px solid white;
+}

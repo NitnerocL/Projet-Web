@@ -39,6 +39,7 @@
 	height:1220px;
 }
 #corps .colonne-centrale{
+	width:100%;
 	background-color: rgba(20,108,171,0.8);
 	border:2px solid white;
 	border-radius: 5px;

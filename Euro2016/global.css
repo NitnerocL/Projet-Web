@@ -184,17 +184,17 @@ footer a {
 
 #corps .colonne-centrale {
 	background-color: rgba(20,108,171,0.8);/*rgba(78, 109, 255, 0.8);*/
-	padding:0.9%;
+	padding:25px;
 	border:2px solid;
 	border-radius: 5px;
 	display: inline-block;
-	width:100%;
+	width:950px;
 	/*max-width: 1000px;*/
 }
 
 #corps .avec-colonne-gauche{
 	display:inline-block;
-	width:72.5%;
+	width:700px;
 	vertical-align: top;
 	left:0;
 }
@@ -202,7 +202,7 @@ footer a {
 
 
 section.colonne-gauche {
-	width:24%;
+	width:235px;
 	border:2px solid white;
 	border-radius: 5px;
 	display:inline-block;
