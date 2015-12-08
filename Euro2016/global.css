@@ -271,7 +271,7 @@ section.colonne-gauche {
 }
 
 
-/*#main-section > img{
+#main-section > img{
 	display: block;
 	margin:auto;
-}*/
+}
