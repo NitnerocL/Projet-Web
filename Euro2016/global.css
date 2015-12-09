@@ -261,6 +261,14 @@ section.colonne-gauche {
 	color:white;
 }
 
+.bouton:hover{
+	cursor: pointer;
+}
+
+.bouton:active{
+	box-shadow: 1px 1px 2px black inset;
+}
+
 .bouton-gauche{
 	float:left;
 	margin-left:20px;
