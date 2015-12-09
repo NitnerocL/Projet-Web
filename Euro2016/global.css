@@ -172,11 +172,11 @@ footer a {
 	min-height:400px;
 }
 
-#corps section p:first-letter{
+#corps section>p:first-letter{
 	margin-left:2em;
 }
 
-#corps section p {
+#corps section>p {
 	text-align: justify;
 }
 

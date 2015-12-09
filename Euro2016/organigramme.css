@@ -1,0 +1,165 @@
+#corps{
+	/*min-width:800px;
+	max-width:1000px;*/
+	width:1000px;
+	margin:auto;
+	min-height:400px;
+}
+
+
+
+
+
+#corps .colonne-centrale {
+	width:1000px;
+}
+
+#organigramme{
+	position:relative;
+	width:100%;
+	height:800px;
+}
+
+#organigramme img{
+	position:absolute;
+	z-index: 1
+}
+#organigramme p{
+	position : absolute;
+	width:148px;
+	height:20px;
+	border-radius: 10px;
+	background-color: white;
+	z-index: 2;
+	color:black;
+	text-align:center;
+}
+
+
+.col1{
+	left:22px;
+}
+
+.col7{
+	right:19px;
+}
+
+.col2{
+	left:194px;
+}
+
+.col6{
+	right:191px;
+}
+
+.col3{
+	left:235px;
+}
+
+.col5{
+	right:232px;
+}
+
+.col4{
+	left:426px;
+}
+
+#org-8-1a{
+	top:128px;
+}
+#org-8-1b{
+	top:153px;
+}
+#org-8-2a{
+	top:277px;
+}
+#org-8-2b{
+	top:302px;
+}
+#org-8-3a{
+	top:455px;
+}
+#org-8-3b{
+	top:480px;
+}
+#org-8-4a{
+	top:605px;
+}
+#org-8-4b{
+	top:630px;
+}
+#org-8-5a{
+	top:128px;
+}
+#org-8-5b{
+	top:153px;
+}
+#org-8-6a{
+	top:277px;
+}
+#org-8-6b{
+	top:302px;
+}
+#org-8-7a{
+	top:455px;
+}
+#org-8-7b{
+	top:480px;
+}
+#org-8-8a{
+	top:605px;
+}
+#org-8-8b{
+	top:630px;
+}
+
+
+#org-4-1a{
+	top:197px;
+}
+#org-4-1b{
+	top:222px;
+}
+#org-4-2a{
+	top:525px;
+}
+#org-4-2b{
+	top:550px;
+}
+#org-4-3a{
+	top:197px;
+}
+#org-4-3b{
+	top:222px;
+}
+#org-4-4a{
+	top:525px;
+}
+#org-4-4b{
+	top:550px;
+}
+
+#org-2-1a{
+	top:361px;
+}
+#org-2-1b{
+	top:386px;
+}
+#org-2-2a{
+	top:361px;
+}
+#org-2-2b{
+	top:386px;
+}
+
+
+#org-1a{
+	top:361px;
+}
+#org-1b{
+	top:386px;
+}
+
+#org-winner{
+	top:562px;
+}

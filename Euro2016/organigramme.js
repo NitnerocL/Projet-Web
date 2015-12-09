@@ -44,7 +44,7 @@ function passerTourSuivant(){
 }
 
 document.getElementById("tour-suivant").onclick=function() {
-	if(compteTour>0){ //Si on n'a pas déjà tout généré
+	if(paysRestants.length>1){ //Si on n'a pas déjà tout généré
 		passerTourSuivant();
 		var id=[];
 		if(compteTour===8){ //En fonction de l'avancement de la compétition, on récupère les id des cases à remplir
@@ -55,6 +55,8 @@ document.getElementById("tour-suivant").onclick=function() {
 			id = ["org-1a","org-1b"];
 		}else if(compteTour===1){
 			id=["org-winner"];
+			var audio = new Audio("cris.mp3");
+			audio.play();
 		}
 
 		for(i=0;i<compteTour;i++){ //On écrit alors le nom des pays dans les cases
@@ -62,6 +64,10 @@ document.getElementById("tour-suivant").onclick=function() {
 		}
 		compteTour = Math.floor(compteTour / 2); //On divise le nombre des pays par 2 en prenant la valeut entière pour avoir 0 après la finale.
 	}else{
+		if(compteTour===8){
+			window.alert("Il faut déjà générer la liste des équipes qualifiées !")
+		}else{
 		window.alert("Petit chenapan, le tableau est déjà rempli, open your eyes !")
+		}
 	}
 }
