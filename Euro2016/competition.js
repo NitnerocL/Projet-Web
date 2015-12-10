@@ -1,4 +1,8 @@
-var dates = [[new Date("2016-06-11T14:00:00"),"France","Allemagne"], [new Date("2016-06-11T17:00:00"),"Autriche","Slovaquie"],[new Date("2016-06-12T16:00:00"),"Suisse","Angleterre"],[new Date("2016-06-12T20:00:00"),"Irlande","Belgique"],[new Date("2016-06-13T14:00:00"),"Italie","Albanie"],[new Date("2016-06-13T17:00:00"),"Russie","Croatie"],[new Date("2016-06-13T20:00:00"),"Turquie","Ukraine"]];
+//Afficher en temps réel le prochain match.
+
+var dates = [[new Date("2016-06-11T13:00:00"),"France","Allemagne"], [new Date("2016-06-11T16:00:00"),"Autriche","Slovaquie"],[new Date("2016-06-12T15:00:00"),"Suisse","Angleterre"],[new Date("2016-06-12T19:00:00"),"Irlande","Belgique"],[new Date("2016-06-13T13:00:00"),"Italie","Albanie"],[new Date("2016-06-13T16:00:00"),"Russie","Croatie"],[new Date("2016-06-13T19:00:00"),"Turquie","Ukraine"]];
+//Les horaires rentrés ici correspondant à GMT, ils sont 2h plus tôt que les vrais horaires des matchs qui ont lieu en été donc à GMT+2
+
 function nextMatch(){
 	var date = new Date();
 	for(i = 0;i<dates.length;i++){
