@@ -56,10 +56,10 @@
 	opacity:1;
 }
 
-.quart.haut.droit img{
+.quart.bas.droit img{
 	border-radius: 10px;
 	border : 1px solid white;
-	margin:12px;
+	margin:8px;
 }
 
 .quart.bas.gauche img{
@@ -67,4 +67,9 @@
 	margin:auto;
 	border:4px solid white;
 	border-radius: 5px;
+}
+
+.quart.haut.droit video{
+	display:block;
+	margin:auto;
 }

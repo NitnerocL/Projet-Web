@@ -16,11 +16,9 @@ function selectionnerPays(){
 document.getElementById("generer-equipes").onclick=function(){//On ne s'en sert qu'ici, donc on utilise une fonction anonyme, elle n'a pas besoin d'avoir de nom.
 	if(!dejaGenere){
 		var paysSelectionnes = selectionnerPays();
-		console.log(paysSelectionnes);
 		var id = ["org-8-1a", "org-8-1b", "org-8-2a", "org-8-2b", "org-8-3a", "org-8-3b", "org-8-4a", "org-8-4b", "org-8-5a", "org-8-5b", "org-8-6a", "org-8-6b", "org-8-7a", "org-8-7b", "org-8-8a", "org-8-8b"];
 		for(var i=0;i<16;i++){
 			document.getElementById(id[i]).innerHTML = paysSelectionnes[i];
-			console.log(paysSelectionnes[i]);
 		} 
 		dejaGenere = true;
 		paysRestants = paysSelectionnes;
@@ -55,7 +53,9 @@ document.getElementById("tour-suivant").onclick=function() {
 			id = ["org-1a","org-1b"];
 		}else if(compteTour===1){
 			id=["org-winner"];
-			var audio = new Audio("cris.mp3");
+			var nomAudio = paysRestants[0];
+			nomAudio.toLowerCase();
+			var audio = new Audio("Sounds/"+nomAudio+".mp3");
 			audio.play();
 		}
 

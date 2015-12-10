@@ -1,6 +1,4 @@
 #corps{
-	/*min-width:800px;
-	max-width:1000px;*/
 	width:1000px;
 	margin:auto;
 	min-height:400px;
@@ -17,7 +15,7 @@
 #organigramme{
 	position:relative;
 	width:100%;
-	height:800px;
+	height:750px;
 }
 
 #organigramme img{
