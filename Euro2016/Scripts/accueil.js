@@ -1,4 +1,4 @@
-//window.onload = function(){
+//Permet de changer la photo toutes les 8 secondes.
 
 setInterval("changerPhoto()",8000);
 
