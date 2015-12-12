@@ -4,7 +4,7 @@ body{
 	background-color :white;
 	margin:0;
 	width: 100%;
-	background-image: url(Images/background.jpg);
+	background-image: url(../Images/background.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	font-family:"PT Sans", Sans;
