@@ -55,7 +55,7 @@ document.getElementById("tour-suivant").onclick=function() {
 			id=["org-winner"];
 			var nomAudio = paysRestants[0];
 			nomAudio.toLowerCase();
-			var audio = new Audio("../Sounds/"+nomAudio+".mp3");
+			var audio = new Audio("Sounds/"+nomAudio+".mp3");
 			audio.play();
 		}
 
